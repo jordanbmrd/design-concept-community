@@ -1,0 +1,74 @@
+:root {
+	--bg-width: 500px;
+	--bg-height: 140px;
+}
+.low {
+	top: -6px;
+}
+.bg-rectangle {
+	width: var(--bg-width);
+	height: var(--bg-height);
+
+	background-color: #1a1821;
+	border: 1px solid #3F3B4F;
+	box-sizing: border-box;
+	box-shadow: 40px 30px 80px #0D0B11;
+	border-radius: 40px;
+	position: absolute;
+	z-index: 1;
+}
+.bg-image {
+	width: var(--bg-width);
+	height: var(--bg-height);
+
+	position: absolute;
+	z-index: 2;
+	background-size: cover;
+	mix-blend-mode: overlay;
+	opacity: 0.7;
+	filter: blur(10px) brightness(40%);
+	border-radius: 30px;
+}
+.musicDisplay {
+	position: relative;
+	margin-bottom: 170px;
+}
+.musicDisplay-infos {
+	position: absolute;
+	z-index: 3;
+	display: flex;
+	width: var(--bg-width);
+	height: var(--bg-height);
+	justify-content: space-between;
+	margin-top: calc(var(--bg-height)/6);
+}
+.musicDisplay-infos-main {
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+	margin: 0 20px;
+}
+.musicDisplay-infos-main p {
+	line-height: 25px;
+	margin-left: 5px;
+}
+.musicDisplay-infos-btn {
+	width: 40%;
+}
+.musicDisplay-infos-btn img {
+	width: 70px !important;
+}
+.musicDisplay-infos img {
+	width: 90px;
+	height: 90px;
+	border-image-slice: 1;
+	border-radius: 30px;
+}
+.musicDisplay-title {
+	font-size: 1.2em;
+	color: #ADA1E0;
+}
+.musicDisplay-author {
+	font-weight: normal;
+	color: #5B5087;
+}

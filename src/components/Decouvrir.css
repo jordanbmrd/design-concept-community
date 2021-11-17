@@ -1,0 +1,21 @@
+.sec3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 104vh;
+  position: relative;
+}
+.sec3-title {
+  position: relative;
+  width: fit-content;
+  padding: 60px 0 40px 0;
+}
+.sec3-title p {
+  font-size: 50px;
+}
+.sec3-title img {
+  width: 40px;
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
