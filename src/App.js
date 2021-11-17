@@ -1,5 +1,4 @@
 import AOS from 'aos';
-import ReactPageScroller from 'react-page-scroller';
 import './aos.css';
 import './App.css';
 import { Component } from 'react';
